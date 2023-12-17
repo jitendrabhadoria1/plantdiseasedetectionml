@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../static/css/styles.css">
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="form_content">
+          <h2>Plant Disease Detection</h2>
+          <p style="font-size:small;">Using a publicly available dataset of photographs of healthy and diseased plant leaves.<br>In this project, we have created a CNN, which will be able to detect whether a plant is suffering from a disease or not. </p>
+          <p style="font-size:small;">Developed By:<br>Jitendra Singh Bhadoria<br>Vidit Raj Singh</p>
+        </div>
+          <div class="login_form">
+            <h1>Detect Disease</h1>
+            <p>Send us the leaf image</p>
+            <form action = "/report" method = "POST"
+              enctype = "multipart/form-data">
+              <input type = "file" name = "file" />
+              <input type = "submit"/>
+            </form>
+          </div>
+      </div>
+    </section>
+  </body>
+</html>
